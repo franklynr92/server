@@ -1,5 +1,5 @@
 const express = require('express');
-const app = epxress();
+const app = express();
 
 app.get('/', (req, res) => {
     res.send({ hi: 'there'});
