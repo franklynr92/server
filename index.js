@@ -1,4 +1,4 @@
-const express = reuqire('express');
+const express = require('express');
 const app = epxress();
 
 app.get('/', (req, res) => {
