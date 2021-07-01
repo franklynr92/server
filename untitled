@@ -1,4 +1,1 @@
-http://localhost:5000/auth/google/callback?
-code=4%2F0AX4XfWhcR2MjWAroWVQ6r7MfNR-Ah_ass0h3fQfIFgvVVa3cdWnEXEFHcvM2VqrVQyJcKg
-&scope=email+profile+https%3A%2F%2F
-www.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=4&prompt=consent#
+http://localhost:5000/auth/google/callback?code=4%2F0AX4XfWioYcMNKBFeALTDFEW3ium2rRqj-QB9iNsdnaMiJAFUMKxkONZ7MfdQLkgvYiT8NA&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=consent#
