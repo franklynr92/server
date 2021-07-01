@@ -14,6 +14,7 @@ passport.use(new GoogleStrategy({
    }
   )
 );
+
 // app.get('/', (req, res) => {
 //     res.send({ bye: 'buddy'});
 // });
@@ -21,8 +22,9 @@ passport.use(new GoogleStrategy({
 app.get(
     '/auth/google', 
     passport.authenticate('google', {
-    scope: ['profile', 'email']
+    scope: ['profile', 'email'] //google has a list of different scopes or permissions we can read off a user's account
   })
 );
+
 const PORT = process.env.PORT || 5000;
 app.listen(PORT);
