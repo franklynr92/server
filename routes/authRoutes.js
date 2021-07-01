@@ -1,3 +1,5 @@
+const passport = require('passport');
+
 app.get(
     '/auth/google', 
     passport.authenticate('google', {
