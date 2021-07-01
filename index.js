@@ -24,6 +24,8 @@ app.get(
   })
 );
 
+app.get('/auth/google/callback', passport.authenticate('google')); //this route gives the code and exchanges it for the user profile
+
 const PORT = process.env.PORT || 5000;
 app.listen(PORT);
 
