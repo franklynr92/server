@@ -1,6 +1,6 @@
 const express = require('express');
 require('./services/passport');
-
+//app object is defined here in index.js
 
 const app = express();
 
@@ -14,4 +14,4 @@ app.listen(PORT);
 //     res.send({ bye: 'buddy'});
 // });
 
-//google has a list of different scopes or permissions we can read off a user's account
+//
